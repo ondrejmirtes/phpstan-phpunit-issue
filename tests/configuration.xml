@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<phpunit bootstrap="bootstrap.php"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         verbose="true">
+
+    <testsuites>
+        <testsuite name="phpstan-phpunit">
+            <directory suffix="Test.php" phpVersion="7.1.0" phpVersionOperator=">=">src</directory>
+            <exclude>ssi/entity/entityTest.php</exclude>
+        </testsuite>
+    </testsuites>
+</phpunit>
