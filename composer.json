@@ -1,0 +1,22 @@
+{
+  "name": "TestRepo",
+  "description": "Repository fot solving issue https://github.com/phpstan/phpstan-phpunit/issues/81",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "MarkSart",
+      "email": "marksart.pro@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TestRepo\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^0.12",
+    "phpstan/phpstan-phpunit": "^0.12",
+    "phpunit/phpunit": "^7.5"
+  }
+}
