@@ -1,5 +1,5 @@
 {
-  "name": "mark-sart/test-repo",
+  "name": "mark-sart/phpstan-phpunit-issue",
   "description": "Repository fot solving issue https://github.com/phpstan/phpstan-phpunit/issues/81",
   "minimum-stability": "stable",
   "license": "proprietary",
