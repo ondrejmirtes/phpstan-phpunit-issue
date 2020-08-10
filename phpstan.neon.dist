@@ -1,11 +1,9 @@
 parameters:
-    bootstrapFiles:
-        - vendor/autoload.php
     level: 7
     paths:
         - src
         - tests
-    tmpDir: %rootDir%/../../../cache/phpstan
+    tmpDir: cache/phpstan
 
 includes:
     - vendor/phpstan/phpstan-phpunit/extension.neon
